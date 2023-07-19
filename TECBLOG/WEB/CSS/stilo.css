@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #CCC;
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header {
+    text-align: center;
+    padding-top: 40px;
+    display: flexbox;
+    position: relative;
+    background-color: #FFBF00;
+    font-size: 2em;
+    text-decoration: solid;
+    background-position: relative;
+    padding-bottom: 20px;
+}
+#tec{
+    display: inline-block;
+    margin: -4px;
+    color: black;
+}
+#blog{
+    color: white;
+    display: inline-block;
+}
+
+nav{
+    padding: 10px;
+    display: flexbox;
+    position: relative;
+    font-size: 0.9em;
+}
+
+header a{
+    padding: 13px;
+    text-decoration: none;
+    text-decoration: solid;
+    display: flexbox;
+    position: relative;
+    top: 20px;
+
+}
+header a:link, header a:visited{
+    color: #FFFFFF;
+}
+header a:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+#principal a:link, #principal a:visited{
+    color: #FFBF00;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+#principal a:hover{
+    color: black;
+}
+#principal{
+
+    display: flexbox;
+    position: relative;
+    padding-left: 17%;
+    padding-right: 17%;
+    margin: 20px auto;
+    width: auto;
+    height: auto;
+    padding-top: 2%;
+
+}
+.postagem{
+    display: flexbox;
+    position: relative;
+    float: left;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.postagem-title{
+    width: fit-content;
+}
+h2{
+    text-decoration: solid;
+    color:#FFBF00;
+    font-size: 1.6em;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.news-text{
+    width: fit-content;
+    height: auto;
+    text-align: justify;
+    font-size: 0.8em;
+    display: flexbox;
+    position: relative;
+}
+.atualizacao{
+    display: flexbox;
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+    min-width: 140px;
+
+}
+.atualizacao h4{
+    background-color: rgb(219, 219, 219);
+    color: #DBA901;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size: 1.4em;
+
+}
+.atualizacao .news-text p{
+    background-color: #CCC;
+}
+
+footer{
+    width: auto;
+    margin: 20px auto;
+    background-color: gray;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    text-decoration: solid;
+    font-size: 1.2em;
+    display: flexbox;
+    position: relative;
+}
+.img-content{
+    width: auto;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+
